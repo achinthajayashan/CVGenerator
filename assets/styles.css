@@ -1,0 +1,17 @@
+/*-----------input form---------*/
+body{
+background-color: #f8f8ff;
+}
+
+#mainDiv{
+    width: 60vw;
+    left: 0;
+    right: 0;
+    margin-top: 2% !important;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+    border-radius: 10px;
+}
+
+#mainDiv h3{
+    text-align: center;
+}
