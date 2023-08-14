@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles.css">
+
 </head>
 <body class="container">
-    <div class="col-7 col-sm-12 col-lg-12 position-absolute m-auto bg-white" id="mainDiv">
+    <div class="col-12 col-sm-7 col-lg-7 position-absolute m-auto bg-white" id="mainDiv">
         <h3 class="mt-3 ">CV GENERATOR</h3>
 
 <!--        personal information input section-->
@@ -17,7 +18,7 @@
             <h4 class="mt-5">Personal Information</h4>
 
 <!--            input form-->
-            <form class="mt-3">
+            <form class="mt-3" id="cvForm">
                 <div class="mb-3">
                     <label for="inputFullName" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="inputFullName" name="txtInputName">
@@ -54,13 +55,21 @@
                     <input type="file" class="form-control" id="inputProfileImage" name="fileInputImg">
                 </div>
 
-                <button type="submit"  class="btn btn-primary container-fluid">Generate CV</button>
+                <h4 class="mt-5">Educational Information</h4>
+
+                <div class="mb-3">
+                    <label for="inputExamName" class="form-label">Examination</label>
+                    <input type="text" class="form-control" id="inputExamName" name="txtInputName">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary container-fluid">Generate CV</button>
             </form>
         </div>
     </div>
 
 
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
