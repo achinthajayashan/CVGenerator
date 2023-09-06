@@ -15,26 +15,26 @@ cvForm.addEventListener('submit', function(event) {
     // Create CV content
     const cvContent1 = `
         <img src="${URL.createObjectURL(profilePic)}" alt="" srcset="" width="100px"  id="pImg">
-        <h1>Address</h1>
-        <h2>${address}</h2>
+        <h1 class="tHead">Address</h1>
+        <h2 class="tData">${address}</h2>
         
-        <h1>Email</h1>
-        <h2>${email}</h2>
+        <h1 class="tHead">Email</h1>
+        <h2 class="tData">${email}</h2>
         
-        <h1>Telephone</h1>
-        <h2>${telephone}</h2>
+        <h1 class="tHead">Telephone</h1>
+        <h2 class="tData">${telephone}</h2>
         
-        <h1>Date Of Birth</h1>
-        <h2>${dob}</h2>
+        <h1 class="tHead">Date Of Birth</h1>
+        <h2 class="tData">${dob}</h2>
         
-        <h1>Gender</h1>
-        <h2>${gender}</h2>
+        <h1 class="tHead">Gender</h1>
+        <h2 class="tData">${gender}</h2>
         
         <!-- Include other CV sections here -->
     `;
 
     const cvContent2 = `
-        <h1>${fullName}</h1>
+        <h1 id="NameLarge">${fullName}</h1>
         <!-- Include other CV sections here -->
     `;
 
