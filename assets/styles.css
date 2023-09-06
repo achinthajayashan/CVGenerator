@@ -1,4 +1,10 @@
 /*-----------input form---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
 body{
 background-color: #f2f2f2;
 }
@@ -51,10 +57,11 @@ margin: auto;
 }
 
 #pImg{
-    border-radius: 10px;
-    box-shadow: 0px 0px 3px black;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px black;
     /*border: 2px solid yellow;*/
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 .tHead{
